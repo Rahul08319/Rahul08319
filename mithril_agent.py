@@ -59,7 +59,7 @@ class ResearchTeam:
     def setup_team(self):
         """Create a team of specialized agents"""
         # To use the SmartResearchAgent, ensure you have your GOOGLE_API_KEY set as an environment variable
-        google_api_key = os.environ.get("GOOGLE_API_KEY")
+        google_api_key = os.environ.get("AIzaSyDuyJqSjBh3f52bdhThHwtIdHjUdyoOm8E")
 
         self.agents["data_analyst"] = RealTimeDataAgent(
             "DataAnalyst", "Financial Markets"
